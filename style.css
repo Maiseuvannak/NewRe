@@ -318,3 +318,76 @@ a:hover{
    padding-top: 10px;
    font-family:Prague ;
 }
+@media only screen and  (min-width:320px){
+    .WW{
+        text-align: center;
+        padding-left: 50px;
+       font-size: 24px;
+       margin: 0px;
+       padding-top: 10px;
+       font-family:Prague ;
+    }
+    li,a{
+    
+        text-decoration: none;
+        padding: 10px 10px;
+        text-align: center;
+        display: block;
+        color:white;
+    }
+    li{
+        float:right;
+    }
+    ul{
+        background-color: rgb(156, 163, 153);
+        overflow: hidden;
+       
+        list-style: none;
+        position: sticky;
+        top:0px;
+        width: 1150px;
+        border-radius: 10px;
+    
+    
+    }
+    .payer2{
+    
+        width: 189px;
+        font-family: battambang;
+        margin-left: 15px;
+        font-size: 16px;
+        background-color: rgb(87, 83, 90);
+        height: 300px;
+        border-radius: 5px;
+        margin-left: 10px;
+        color: white;
+        text-align: center;
+        
+    }
+    .payer3{
+        
+        width: 189px;
+        font-family: battambang;
+        margin-left: 15px;
+        font-size: 16px;
+        background-color: rgb(87, 83, 90);
+        height: 300px;
+        border-radius: 5px;
+        margin-left: 10px;
+        color: white;
+        text-align: center;
+    }
+    .payer4{
+        width: 189px;
+        font-family: battambang;
+        margin-left: 15px;
+        font-size: 16px;
+        background-color: rgb(87, 83, 90);
+        height: 300px;
+        border-radius: 5px;
+        margin-left: 10px;
+        color: white;
+        text-align: center;
+    }
+
+}
