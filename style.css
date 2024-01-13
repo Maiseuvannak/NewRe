@@ -318,40 +318,176 @@ a:hover{
    padding-top: 10px;
    font-family:Prague ;
 }
-@media only screen and  (min-width:320px){
-    .WW{
-        text-align: center;
-        padding-left: 50px;
-       font-size: 24px;
-       margin: 0px;
-       padding-top: 10px;
-       font-family:Prague ;
-    }
-    li,a{
+@media only screen and (min-width:320px){
     
-        text-decoration: none;
-        padding: 10px 10px;
+    .Header{
+        display: flex;
+        flex-direction: row;
         text-align: center;
-        display: block;
-        color:white;
-    }
-    li{
-        float:right;
-    }
-    ul{
-        background-color: rgb(156, 163, 153);
-        overflow: hidden;
+       height: 30px;
+       margin-top: 20px;
+       margin-right: 20px;
        
-        list-style: none;
-        position: sticky;
-        top:0px;
-        width: 1150px;
+       
+    }
+    .secon{
+        display: flex;
+        
+        text-align: ;
+       height: 200px;
+       margin-top: 20px;
+       margin-right: 20px;
+       margin-top: 50px;
+       
+       
+    }
+    .layout3{
+        display: flex;
+        flex-direction: row;
+        text-align: ;
+       height: 190px;
+       margin-top: 20px;
+       margin-right: 20px;
+       margin-top: 30px;
+       
+       
+       
+       
+    }
+    .layout4{
+        display: flex;
+        flex-direction: row;
+        text-align: ;
+       height: 100px;
+       
+       
+       margin-left: 10px;
+       
+       margin-bottom: 20px;
+    }
+    .box1{
+         
+         display: flex;
+         width:100% ;
+         
+         height: 50px;
+         text-align: center;
+        
+         
+        
+         
+    }
+    .box2{
+        
+        
+        width: 60px;
+        margin-left: 10px;
+       
+        border-radius: 30px;
+        font-family: arial;
+        
+        
+    }
+    .box3{
+        
+        
+        width: 60px;
+        margin-left: 10px;
+        
+    }
+    .box4{
+        
+        width: 60px;
+        margin-left: 10px;
+       
+    }
+    .box5{
+        width: 60px;
+        
+        margin-left: 10px;
+    }
+    .box6{
+        width: 980px;
+        margin-top: 10PX;
+        margin-left: 10px;
+        font-size: 10PX;
+        font-family: ROG Fonts;
+        color:rgb(10, 135, 133);
+        
+        
+    }
+    .layer6{
+        width: 100%;
+        
+        margin-left: 10px;
+        height: 200px;
+    }
+    .layer1{
+        width: 200px;
+        
+        margin-left: 10px;
+        height: 200px;
+    }
+    .layer2{
+        width: 400px;
+        font-family: battambang;
+        margin-left: 10px;
+        font-size: 12px;
+        background-color: rgb(87, 83, 90);
+        height: 195px;
+        border-radius: 5px;
+        color: rgb(222, 222, 222);
+        text-align: center;
+    }
+    .layer3{
+        width: 400px;
+        background-color: rgb(87, 83, 90);
+        margin-left: 10px;
+        font-family: battambang;
+        font-size: 12px;
+        height: 195px;
+        border-radius: 5px;
+        color: rgb(222, 222, 222);
+        text-align: center;
+    }
+    .layer4{
+        width: 400px;
+        background-color: rgb(87, 83, 90);
+        margin-left: 10px;
+        font-family: battambang;
+        font-size: 12px;
+        height: 195px;
+        border-radius: 5px;
+        color: rgb(222, 222, 222);
+        text-align: center;
+    }
+    .layer5{
+        width: 400px;
+        background-color: rgb(87, 83, 90);
+        margin-left: 10px;
+        font-family: battambang;
+        font-size: 12px;
+        height: 195px;
+        border-radius: 5px;
+        color: rgb(222, 222, 222);
+        text-align: center;
+    }
+    
+    .payer1{
+        
+        width:600px;
+        font-family: battambang;
+        
+        font-size: 12px;
         border-radius: 10px;
-    
-    
+        height: 180px;
+        border-radius: 5px;
+        margin-left: 12px;
+        border-radius: 20px;
+        
     }
     .payer2{
-    
+        
         width: 189px;
         font-family: battambang;
         margin-left: 15px;
@@ -389,5 +525,119 @@ a:hover{
         color: white;
         text-align: center;
     }
-
+    .payer5{
+        
+        
+        width: 460px;
+        font-family: battambang;
+        margin-left: 10px;
+        font-size: 20px;
+        background-color: rgb(87, 83, 90);
+        height: 300px;
+        border-radius: 5px;
+        margin-left: 10px;
+        color: white;
+        text-align: center;
+    }
+    .payer6{
+        
+        width: 390px;
+        font-family: battambang;
+        margin-left: 10px;
+        font-size: 12px;
+        background-color: rgb(87, 83, 90);
+        height: 100px;
+        border-radius: 5px;
+        margin-left: 10px;
+        
+    }
+    .blayout1{
+        
+        width: 172px;
+    }
+    .blayout2{
+       
+        width: 172px;
+        margin-left: 10px;
+    
+    }
+    .blayout3{
+        background-color: rgb(235, 20, 121);
+        width: 100px;
+        margin-left: 10px;
+    }
+    
+    .logo{
+        border-radius: 25px;
+        margin-left: 10px;
+        width: 40px;
+        
+    }
+    .bnt-menu{
+        border-radius: 10px;
+        width: 70px;
+        height: 40px;
+        border: solid ;
+        background-color: rgb(249, 8, 8);
+        color:white;
+        font-family: Bokor;
+    }
+    .menu-user-login-home{
+        width: 10px;
+        
+       
+    }
+    .picture{
+        width: 180px;
+    }
+    .game1{
+        width: 189px;
+        border-radius: 5px;
+        background-color: white;
+        object-fit: cover;
+        
+    }
+    .game2{
+        width: 172px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    ul{
+        background-color: rgb(156, 163, 153);
+        overflow: hidden;
+       
+        list-style: none;
+        position: sticky;
+        top:0px;
+        width: 1150px;
+        border-radius: 10px;
+    
+    
+    }
+    
+    
+    
+    li,a{
+        
+        text-decoration: none;
+        padding: 10px 10px;
+        text-align: center;
+        display: block;
+        color:white;
+    }
+    li{
+        float:right;
+    }
+    a:hover{
+        background-color: rgb(81, 78, 78);
+        
+    }
+    .WW{
+        text-align: center;
+        padding-left: 50px;
+       font-size: 24px;
+       margin: 0px;
+       padding-top: 10px;
+       font-family:Prague ;
+    }
 }
